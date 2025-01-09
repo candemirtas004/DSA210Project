@@ -29,6 +29,23 @@ After that, I explored the data and realised that, there were remakes in the dat
 - Created a heatmap using the all the numerical values in my data frame (PNG8). Used pearson method but method can be changed to check whether results are improved.
 
 
+Hypothesis Testing:
+
+Like I mentioned before, I actually wanted to test the hypothesis that my winrate is higher in high game lenght brackets, but since results already contradicted that I will be checking the opposite.
+
+- Null Hypothesis: There is no difference in terms of winrate between game lenght brackets.
+- Alternative Hypothesis: Winrate is in lower game lenght bracket is higher.
+- Significance level: 0.05
+- Used two sampled Z-test to check the hypothesis that my winrate is higher in lower game lenght games.
+
+
+Machine Learning:
+
+First, I created a new data frame by taking only win and gold columns from my previous data frame. I used my gold income to predict the outcome of my games. I used a decision tree model and hyperparameter tuning method.
+I trained my model with a 80/20 ratio for training and testing. The models accuracy and precision usually varies between 0.45 and 0.65. This is probably due to low amount of data.
+
+
+
 
 
 
