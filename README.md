@@ -14,9 +14,19 @@ After that, I explored the data and realised that, there were remakes in the dat
 
 - Checked the amount of games that I played in each month and used a bar plot to visualize it (PNG0). From the plot it can be observed that my play count increased gradually into a spike two different times and crashed after each spike.
 
-- Checked the champions that i played the most and used a bar plot to visualize it (PNG1). Plot indicates that I mainly play Ahri and Vladimir.
+- Checked the champions that i played the most(champions that i played at least 5 times.) and used a bar plot to visualize it (PNG1). Plot indicates that I mainly play Ahri and Vladimir.
 
-- 
+- Checked the winrates of the champions that I played the most and used a bar plot visualize it (PNG2). After observing the plot I realised that I should play more Ahri games if I want to climb the ranks since my Ahri had %69.9 winrate with a relatively high game count.
+
+- Created 3 gold income brackets(low,mid,high) to check whether my winrate is correlated with my gold income. I was expecting my winrate to increase as my gold income increased. After computing the results and visualizing them using a bar chart (PNG3), I observed that my expectations were correct.
+
+- Again I created 3 vision score brackets(low,mid,high) and checked their winrates with a bar plot(PNG4). I was expecting my vision score to be correlated with my winrate. The plot and results met my expectations.
+
+- Once more, I created brackets to check whether game lenght had an effect on my winrate. Before checking the plot and results I was actually planning to check the hypothesis that my winrate is higher in high game lenght brackets than normal. I was expecting my winrate to increase as the game progressed into late stages since I usually play Vladimir if the matchup allows me to. But plot(PNG5) and results showed that my expectations were completely incorrect. My winrate actually decreases as the game lenght increases and my winrate is highest in low game lenght brackets. I am thinking that this happened due to my Ahri games having a really high winrate(%69.9 WR) compared to my Vladimir games(%58 WR).
+
+- Checked the correlation between winrate, kills and deaths using scatter plots(PNG6,PNG7). I was expecting kills and deaths to be positively and negatively correlated with winrates respectively. Plot and Trendlines met my expectations.
+
+- Created a heatmap using the all the numerical values in my data frame (PNG8). Used pearson method but method can be changed to check whether results are improved.
 
 
 
